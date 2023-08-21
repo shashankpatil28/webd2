@@ -1,0 +1,112 @@
+.createPostMain {
+    background-color: var(--light-main-color-1);
+    margin: 20px 30px;
+    border-radius: 20px;
+    width: 92%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+.dark .createPostMain {
+    background-color: var(--dark-main-color-1);
+}
+.createPostWrapper {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.CreatePostupper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.upperIcon {
+    height: 30px;
+    width: 30px;
+    padding: 5px 5px;
+}
+.createPostWrapper p {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    /* color: var(--main-text-color-1); */
+}
+
+.CreatePostLower {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+}
+.lowermain {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.lowerContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.CreatePostMiddle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.CreatPostImg{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    z-index: 99;
+}
+.CreatePostMiddle  textarea {
+    max-width: 100%;
+    height: 100px;
+    resize: none;
+    border: solid 2px #000;
+    border-radius: 20px;
+    padding: 20px 50px;
+    position: relative;
+    bottom: 20px;
+}
+.dark .CreatePostMiddle  textarea {
+    background-color: var(--dark-background-color);
+    border: none;
+}
+.createPostIcons {
+    font-size: 1.4rem;
+}
+.videoICon {
+    color: rgb(255, 85, 85);
+}
+.galleryIcons {
+    color: rgb(111, 248, 90);
+}
+.cameraIcons {
+    color: rgb(255, 162, 0);
+}
+.dark .videoICon {
+    color: rgb(248, 77, 77);
+}
+.dark .galleryIcons {
+    color: rgb(65, 233, 39);
+}
+.dark .cameraIcons {
+    color: rgb(255, 162, 0);
+}
+.submitPost button{
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: none;
+    transition: all ease 0.2s;
+    font-size: 0.95rem;
+    background: linear-gradient(90deg, rgb(19, 54, 255) 26%, rgb(87, 109, 247) 90%);
+    color:rgb(255, 255, 255);
+    border: solid .5px  #007aec;
+}
+.submitPost button:hover {
+    scale: 0.95;
+}

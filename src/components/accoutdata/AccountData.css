@@ -1,0 +1,32 @@
+.aboutLogin {
+    padding: 0 25px 10px;
+}
+.newsfeed {
+    width: 90%;
+}
+.login, .addAcc, .logoutAcc{
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    color:var(--main-text-color-2);
+}
+.login {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.addAcc {
+    color: blue;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.logoutAcc {
+    color:rgb(255, 37, 37);
+    font-size: 1.1rem;
+    font-weight: 500;   
+}
+.dark .addAcc {
+    color: rgb(134, 134, 255);
+}
+.dark .logoutAcc {
+    color:rgb(248, 123, 123);
+}

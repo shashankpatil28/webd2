@@ -1,0 +1,22 @@
+var:root {
+    --light-background-color : #E9ECEF;
+    --light-main-color-1 : #fff;
+    --light-main-color-2 : #DEE2E6;
+    --light-main-color-3 : #ADB5BD;
+
+    --dark-background-color : #001233;
+    --dark-main-color-1 : #33415C;
+    --dark-main-color-2 : #5C677D;
+    --dark-main-color-3 : #001845;
+
+    --logo-font-color : #4361ee;
+    --main-text-color : #000;
+    --main-text-color-1 : #1c1c1c;
+    --main-text-color-2 : #494949;
+
+    --button-backgrnd-color-1: rgb(96, 112, 218);
+
+    --big-font-size : 2rem;
+    --normal-font-size : 1.4rem;
+    --small-font-size : 0.9rem;
+}

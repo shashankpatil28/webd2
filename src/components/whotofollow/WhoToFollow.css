@@ -1,0 +1,72 @@
+.Whotofollow {
+    background-color: var(--light-main-color-1);
+    margin: 20px 30px;
+    border-radius: 20px;
+    width: 85%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.Whotofollow p {
+    font-family: 'Poppins', sans-serif;
+}
+.whotofollowWrapper {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    border-radius: 15px;
+}
+.dark .whotofollowWrapper {
+    background-color: var(--dark-main-color-1);
+}
+.whotofollowUpper {
+    margin-bottom: 15px;
+}
+.whotofollowUpper  P{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.whotofollowMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+.whotofollowData {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.whotofollowDataButton {
+    display: flex;
+    align-items: center;
+
+}
+.whotofollowPlus {
+    background: linear-gradient(90deg, rgb(14, 36, 162) 26%, rgb(87, 109, 247) 90%);
+    font-size: 2.2rem;
+    padding: 7px 7px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.whotofollowMainButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whotofollowMainButton button {
+    padding: 5px 20px;
+    width: 90%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(19, 54, 255) 26%, rgb(87, 109, 247) 90%);
+    color: #ffffff;
+    border: solid 1.5px  #007aec;
+    transition: all ease 0.2s;
+}
+.whotofollowMainButton button:hover {
+    scale: 0.95;
+}
